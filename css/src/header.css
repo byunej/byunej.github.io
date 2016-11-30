@@ -34,10 +34,12 @@ button{background-color: transparent;}
                 .slide_menu dt{width: 21.88rem;height: 4rem;box-sizing: border-box;padding: 0 1rem;line-height: 4rem;font-family: 'Open Sans Condensed', sans-serif;color: #fff;border-top: 1px solid #444;}
                 .slide_menu dt:first-child{width: 20rem;height: 4.5rem;font-size: 2rem;line-height: 4.5rem;position:fixed;top: 0;left: 0;background-color: #111;}
                 .slide_menu dt:nth-of-type(2){margin-top: 4.5rem}
-                    .slide_menu dl dt .prev{width: auto;height: 4.0rem;float: left;margin-right: 1rem;}
-                        .slide_menu dl dt .prev i{font-size: 4rem;}
-                            .slide_menu dl .menu{position: fixed;z-index: 15000;top: 1.2rem; left: 16rem;margin: 0;}
-                                .slide_menu dl .menu i{width: 2rem;height: 2rem;font-size: 1.5rem}
+                    .slide_menu dl dt .prev{width: auto;height: 2.0rem;float: left;margin-right: 1rem;margin-top: 1rem;}
+                        .slide_menu dl dt .prev i{font-size: 2rem;}
+                            .slide_menu dl .menu{width: 3em;height:3rem;position: fixed;z-index: 15000;top: 1.2rem; left: 16rem;margin: 0;}
+                            .slide_menu dl .menu:hover{position: fixed;z-index: 15000;top: 1.2rem; left: 16rem;margin: 0;transform: rotateY(360deg);transition: all 1.2s}
+                            .slide_menu dl .menu button{width: 3rem;height: 2rem;}
+                                .slide_menu dl .menu i{width: 3rem;height: 2rem;font-size: 1.5rem;}
                     .slide_menu dt a{display: block; width: 20rem;height: 4rem;text-align: left;font-size: 1.025rem;font-family: 'Nanum Gothic', sans-serif;font-weight:lighter; color: #fff}
                         .slide_menu dt .fa-angle-down, .slide_menu dt .fa-angle-up{float: right;font-size: 1.7rem;margin-top: 1rem;margin-right: 2rem}
 
