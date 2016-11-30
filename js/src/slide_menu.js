@@ -6,69 +6,69 @@ var shop = [
 			{"dt" :"SHOP"},
 			{"dt" : "베스트 신제품","link":"./best_new.html"},
 			{"dt" : "스킨 케어", "skincare":[
-										{"dd":"클렌저","link":"./shop.html"},
-										{"dd":"데일리케어","link":"./shop.html"},
-										{"dd":"엑스트라케어","link":"./shop.html"},
-										{"dd":"선케어","link":"./shop.html"}]
+										{"dd":"클렌저","link":"#"},
+										{"dd":"데일리케어","link":"#"},
+										{"dd":"엑스트라케어","link":"#"},
+										{"dd":"선케어","link":"#"}]
             },
   
 			{"dt" : "페이스 메이크업" , "facemakeup":[
-										{"dd":"프라이머","link":"./shop.html"},
-										{"dd":"루미나이저","link":"./shop.html"},
-										{"dd":"BB 틴티드","link":"./shop.html"},
-										{"dd":"컨실러","link":"./shop.html"},
-										{"dd":"파운데이션","link":"./shop.html"},
-										{"dd":"파우더","link":"./shop.html"}]
+										{"dd":"프라이머","link":"#"},
+										{"dd":"루미나이저","link":"#"},
+										{"dd":"BB 틴티드","link":"#"},
+										{"dd":"컨실러","link":"#"},
+										{"dd":"파운데이션","link":"#"},
+										{"dd":"파우더","link":"#"}]
             },
 			{"dt" : "아이" , "eye":[
-										{"dd":"아이섀도우","link":"./shop.html"},
-										{"dd":"아이라이너","link":"./shop.html"},
-										{"dd":"아이브라우","link":"./shop.html"},
-										{"dd":"마스카라","link":"./shop.html"},
-										{"dd":"아이 기타","link":"./shop.html"}]   },
+										{"dd":"아이섀도우","link":"#"},
+										{"dd":"아이라이너","link":"#"},
+										{"dd":"아이브라우","link":"#"},
+										{"dd":"마스카라","link":"#"},
+										{"dd":"아이 기타","link":"#"}]   },
 			{"dt" : "치크","link":"./shop.html"},
 			{"dt" : "립" , "lip":[
-									{"dd":"립스틱","link":"./shop.html"},
-									{"dd":"립글로즈","link":"./shop.html"},
-									{"dd":"립틴트","link":"./shop.html"},
-									{"dd":"립라이너","link":"./shop.html"},
-									{"dd":"립 기타","link":"./shop.html"}]   },
-			{"dt" : "향수","link":"./shop.html"},
-			{"dt" : "프로 툴","link":"./shop.html"},
-			{"dt" : "스페셜 세트","link":"./shop.html"},
+									{"dd":"립스틱","link":"#"},
+									{"dd":"립글로즈","link":"#"},
+									{"dd":"립틴트","link":"#"},
+									{"dd":"립라이너","link":"#"},
+									{"dd":"립 기타","link":"#"}]   },
+			{"dt" : "향수","link":"#"},
+			{"dt" : "프로 툴","link":"#"},
+			{"dt" : "스페셜 세트","link":"#"},
 			{"dt" : "아이 믹스앤매치","link":"./eyemix.html"},
 			{"dt" : "라스트찬스","link":"./last.html"}
 		   ];
 var protip = [
 			{"dt" : "PRO TIP"},
 			{"dt" : "에브리데이 메이크업","link":"./everyday.html"},
-			{"dt" : "프로메이크업 비디오","link":"./video.html"},
-			{"dt" : "아티스트 QNA","link":"./qna.html"},
-			{"dt" : "파운데이션 파인더","link":"./foundation.html"},
+			{"dt" : "프로메이크업 비디오","link":"#"},
+			{"dt" : "아티스트 QNA","link":"#"},
+			{"dt" : "파운데이션 파인더","link":"#"},
 			{"dt" : "컬러 파인더","link":"./color.html"},
-			{"dt" : "브러쉬 파인더","link":"./brush.html"}
+			{"dt" : "브러쉬 파인더","link":"#"}
 			];
 var chance = [
 			{"dt" : "CHANCE"},
-			{"dt" : "이벤트","link":"./event.html"},
-			{"dt" : "큐빅스토어","link":"./cubic.html"}
+			{"dt" : "이벤트","link":"#"},
+			{"dt" : "큐빅스토어","link":"#"}
 			];
 var service =[
 			{"dt" : "SERVICE"},
-			{"dt" : "메이크업 레슨","link":"./lesson.html"},
-			{"dt" : "멤버쉽","link":"./membership.html"},
-			{"dt" : "VVIP라운지","link":"./vvip.html"},
+			{"dt" : "메이크업 레슨","link":"#"},
+			{"dt" : "멤버쉽","link":"#"},
+			{"dt" : "VVIP라운지","link":"#"},
 			{"dt" : "아이브로우바","link":"./eyebrow.html"}
 			];
 var brand = [
 			{"dt" : "BRAND"},
-			{"dt" : "뉴 컬렉션","link":"./collection.html"},
+			{"dt" : "뉴 컬렉션","link":"#"},
 			{"dt" : "브랜드 컨셉","link":"./brand.html"},
-			{"dt" : "브랜드 히스토리","link":"./history.html"},
-			{"dt" : "아티스트 스튜디오","link":"./artist.html"},
-			{"dt" : "뉴스","link":"./news.html"},
-			{"dt" : "소셜 에스쁘아","link":"./social.html"},
-			{"dt" : "매장찾기","link":"./store.html"}
+			{"dt" : "브랜드 히스토리","link":"#"},
+			{"dt" : "아티스트 스튜디오","link":"#"},
+			{"dt" : "뉴스","link":"#"},
+			{"dt" : "소셜 에스쁘아","link":"#"},
+			{"dt" : "매장찾기","link":"#"}
 			];
 
 	
