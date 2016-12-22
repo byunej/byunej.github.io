@@ -1,0 +1,13 @@
+@media screen and (min-width:37.5rem) and (max-width:63.94rem){
+    /*tab.css*/
+    
+    /*메인*/
+    #main {padding: 5% 20%;}
+    /*메일 로고*/
+    #main .logo{height: 50%;padding: 5% 5%;}
+    /*컨텐츠박스*/
+    #main .logo ~ div{width: 50%;min-height:3rem; height: 25%;padding:2%;}
+
+    #main .portfolio_01 div, #main .portfolio_02 div {width:100%;height: 50%;}
+    #main .portfolio_01 div:nth-child(2), #main .portfolio_02 div:nth-child(2){border-top: 0}
+}

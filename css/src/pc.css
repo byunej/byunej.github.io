@@ -1,0 +1,9 @@
+@media screen and (min-width:64rem){
+    /*pc.css*/
+    #main {padding: 5% 25%;}
+    #main .logo{height: 75%;padding: 5% 25%;}
+   
+    #main .logo ~ div{width: 25%;min-height:3rem; height: 25%;padding:0 1%;color: #fff;}
+    #main .portfolio_01 div, #main .portfolio_02 div {width:100%;height: 50%;}
+    #main .portfolio_01 div:nth-child(2), #main .portfolio_02 div:nth-child(2){border-top: 0}
+}
