@@ -31,9 +31,20 @@ $(function(){
 		$('.scroll_box').animate({scrollTop:identity.top},800);
         console.log(resume);
     });
-   
-$('#main>.logo ~ div').on('click',function(e){
-    var header = $('header').fadeIn();
+
+    
+
+$('.scroll_box').on('scroll',function(e){
+    var wh = $(window).height();
+    var scroll = $(this).scrollTop();
+    console.log(scroll);
+    
+    if(scroll>wh){
+        $('header').fadeIn();
+    }else{
+        $('header').fadeOut();
+    }
 });
+    
     
 });
