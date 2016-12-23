@@ -75,7 +75,7 @@ $('.menu_button button').on('click',function(e){
     });
 /*resume 클릭*/
     
- $('.menu li').on('click',function(e){
+$('.menu li').on('click',function(e){
         e.preventDefault();
         $('.menu').addClass('hide');
         $('.menu_button i').removeClass("fff");
@@ -106,15 +106,16 @@ $('.menu_button button').on('click',function(e){
 
     });
     
-    /*top 버튼 클릭*/
-    $('.top').on('click',function(e){
+/*top 버튼 클릭*/
+$('.top').on('click',function(e){
     
         e.preventDefault();
 		$('.scroll_box').animate({scrollTop:0},800);
         
     });
-    
-    $(window).resize(function(){
+
+/*window resize*/
+$(window).resize(function(){
         var reww = $(window).width();
         
         if( reww !== ww){
