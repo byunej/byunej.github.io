@@ -6,4 +6,9 @@
     #main .logo ~ div{width: 25%;min-height:3rem; height: 25%;padding:0 1%;color: #fff;}
     #main .portfolio_01 div, #main .portfolio_02 div {width:100%;height: 50%;}
     #main .portfolio_01 div:nth-child(2), #main .portfolio_02 div:nth-child(2){border-top: 0}
+    
+    #resume{width: 100vw;height:auto; }
+    .resume_title{width: 100vw;height: 30vh;color: #555;font-size:2rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
+    .resume_content_01{width: 30vw;height: 60vw;background-size: 90% auto;background-repeat: no-repeat; background-position:left top; background-image: url(../../img/resume_pc_01.svg);display: inline-block;}
+    .resume_content_02{width: 60vw;height: 60vw;background-size: 100% auto;background-repeat: no-repeat; background-position: top right; background-image: url(../../img/resume_pc_02.svg);display: inline-block;box-sizing: border-box;border-left:1px solid #ccc;padding-left: 5rem;}
 }
