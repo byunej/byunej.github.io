@@ -21,5 +21,17 @@
     .portfolio_01_content_01{height: 140vw;background-image: url(../../img/espoir_abstract_tab.svg);}
     #portfolio_01 ul{padding-left: 1rem}
     .portfolio_01_content_02{height: 150vw;background-image: url(../../img/espoir_synop_tab.svg);}
+    /*   portfolio_02*/    
+    #portfolio_02{width: 100vw;height: auto; }
+    .portfolio_02_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
+    .portfolio_02_content_01{height: 140vw;background-image: url(../../img/fender_abstract_tab.svg);}
+    #portfolio_02 ul{padding-left: 1rem}
+    .portfolio_02_content_02{height: 150vw;background-image: url(../../img/espoir_synop_tab.svg);}
+    /*   identity*/    
+    #identity{width: 100vw;height: auto; }
+    .identity_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
+    .identity_content_01{height: 140vw;background-image: url( );}
+    
+    .identity_content_02{height: 150vw;background-image: url( );}
     
 }
