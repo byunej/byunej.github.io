@@ -1,6 +1,7 @@
 $(function(){
     
     var ww = $(window).width();
+    var wh = $(window).height();
     var resume = $('#resume').offset();
     var portfolio_01 = $('#portfolio_01').offset();
     var portfolio_02 = $('#portfolio_02').offset();
@@ -92,6 +93,16 @@ $('.menu_button button').on('click',function(e){
       
       
 
-    });   
+    }); 
     
+    $(window).resize(function(){
+        var rewh = $(window).height();
+        
+        if( rewh !== wh){
+            location.reload();
+            }else{}
+        
+        });
+    
+   
 });
