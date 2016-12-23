@@ -1,5 +1,5 @@
 /*base.css*/
-body{background-color: #000;}
+body{background-color: #fff;}
 .window_box{width:100vw; height: 100vh;overflow: hidden;}
 .scroll_box{width: calc(100vw + 1rem);height: 100vh;overflow-y: scroll;overflow-x: hidden;}
 
@@ -37,7 +37,7 @@ section article{width: 100vw;/*height: auto;*/height: 50rem;box-sizing: border-b
    
 
 section #main a:hover, section #main a:focus{background-color: rgba(2, 22, 39, 0.8);outline: 0}
-section #resume {background-color: #fff;}
-section #portfolio_01 {background-color: #3184cb;}
-section #portfolio_02 {background-color: #6a8301;}
-section #contact {background-color: #ed045e;}
+#portfolio_02 {background-color: #685;
+}
+#identity {background-color: #16403e;
+}

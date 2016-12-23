@@ -13,7 +13,11 @@
     
 /*    resume*/
     #resume{width: 100vw;height: auto; }
-    .resume_title{width: 100vw;height: 30vh;color: #555;font-size: 3rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
+    .resume_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
     .resume_content_01{width: 100vw;height: 150vw;background-size: contain;background-repeat: no-repeat; background-position: top center; background-image: url(../../img/resume_tab.svg);}
+/*   portfolio_01*/    
+    #portfolio_01{width: 100vw;height: auto; }
+    .portfolio_01_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
+    .portfolio_01_content_01{width: 100vw;height: 150vw;background-size: contain;background-repeat: no-repeat; background-position: top center; background-image: url(../../img/espoir_abstract_tab.svg);}
     
 }

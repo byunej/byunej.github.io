@@ -17,5 +17,10 @@ aside .menu_button i{font-size: 1.5rem;color: #fff;}
     .resume_title{width: 100vw;height: 30vh;color: #555;font-size:2rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
     .resume_content_01{width: 100vw;height: 150vw;background-size: contain;background-repeat: no-repeat; background-position:center top; background-image: url(../../img/resume_mob_01.svg);}
     .resume_content_02{width: 100vw;height: 367vw;background-size: 100% auto;background-repeat: no-repeat; background-position: top center; background-image: url(../../img/resume_mob_02.svg);}
+    
+    /*   portfolio_01*/    
+    #portfolio_01{width: 100vw;height: auto; }
+    .portfolio_01_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
+    .portfolio_01_content_01{width: 100vw;height: 200vw;background-size: 100%;background-repeat: no-repeat; background-position: top center; background-image: url(../../img/espoir_abstract_mob.svg);border-bottom: 1px soild #222}
 
 }
