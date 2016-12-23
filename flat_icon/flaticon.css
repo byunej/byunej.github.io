@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 23/12/2016 02:27
+  	Creation date: 23/12/2016 16:01
   	*/
 
 @font-face {
@@ -28,17 +28,18 @@
 font-style: normal;
 }
 
-.flaticon-award-badge-outlined-symbol-of-stroke-for-sports:before { content: "\f100"; }
-.flaticon-cross:before { content: "\f101"; }
-.flaticon-file:before { content: "\f102"; }
-.flaticon-graduation-cap:before { content: "\f103"; }
-.flaticon-led-monitor:before { content: "\f104"; }
-.flaticon-lightbulb-with-screw:before { content: "\f105"; }
-.flaticon-like:before { content: "\f106"; }
-.flaticon-menu:before { content: "\f107"; }
-.flaticon-monitor-tablet-and-smartohone:before { content: "\f108"; }
-.flaticon-pc-monitor:before { content: "\f109"; }
-.flaticon-people:before { content: "\f10a"; }
-.flaticon-smartphone-screen:before { content: "\f10b"; }
-.flaticon-tablet:before { content: "\f10c"; }
-.flaticon-vertical-line:before { content: "\f10d"; }
+.flaticon-arrow:before { content: "\f100"; }
+.flaticon-award-badge-outlined-symbol-of-stroke-for-sports:before { content: "\f101"; }
+.flaticon-cross:before { content: "\f102"; }
+.flaticon-file:before { content: "\f103"; }
+.flaticon-graduation-cap:before { content: "\f104"; }
+.flaticon-led-monitor:before { content: "\f105"; }
+.flaticon-lightbulb-with-screw:before { content: "\f106"; }
+.flaticon-like:before { content: "\f107"; }
+.flaticon-menu:before { content: "\f108"; }
+.flaticon-monitor-tablet-and-smartohone:before { content: "\f109"; }
+.flaticon-pc-monitor:before { content: "\f10a"; }
+.flaticon-people:before { content: "\f10b"; }
+.flaticon-smartphone-screen:before { content: "\f10c"; }
+.flaticon-tablet:before { content: "\f10d"; }
+.flaticon-vertical-line:before { content: "\f10e"; }

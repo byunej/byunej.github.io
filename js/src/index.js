@@ -36,22 +36,33 @@ $(function(){
 
 $('.scroll_box').on('scroll',function(e){
     var wh = $(window).height();
-    var scroll = $(this).scrollTop();
-        
-    if(scroll>wh){
+    var scroll = parseInt($(this).scrollTop());
+    var resume_scroll = parseInt(resume.top);
+    var portfolio_01_scroll = parseInt(portfolio_01.top);
+    var portfolio_02_scroll = parseInt(portfolio_02.top);
+    var identity_scroll = parseInt(identity.top);
+     
+    console.log("현재스크롤"+scroll);
+    console.log("이력서스크롤"+resume_scroll);
+    if(scroll>=resume_scroll){
         $('header').fadeIn();
+        $('.top').fadeIn();
+                
+        if(resume_scroll<=scroll && scroll<portfolio_01_scroll){
+            $('header').fadeIn();
+            $('header>div').text('resume');            
+        }else if(portfolio_01_scroll<=scroll && scroll<portfolio_02_scroll){
+            $('header>div').text('portfolio_01');
+        }else if(portfolio_02_scroll<=scroll && scroll<identity_scroll){
+            $('header>div').text('portfolio_02');
+        }else{$('header>div').text('identity');};
     }else{
         $('header').fadeOut();
+        $('.top').fadeOut();
     }
+
 });
     
-var wh = $(window).height();
-var scroll = $(this).scrollTop();
-    if(scroll>wh){
-        $('header').fadeIn();
-    }else{
-        $('header').fadeOut();
-    }
 
 /*메뉴버튼 클릭*/    
 $('.menu_button button').on('click',function(e){
@@ -93,12 +104,20 @@ $('.menu_button button').on('click',function(e){
       
       
 
-    }); 
+    });
+    
+    /*top 버튼 클릭*/
+    $('.top').on('click',function(e){
+    
+        e.preventDefault();
+		$('.scroll_box').animate({scrollTop:0},800);
+        
+    });
     
     $(window).resize(function(){
-        var rewh = $(window).height();
+        var reww = $(window).width();
         
-        if( rewh !== wh){
+        if( reww !== ww){
             location.reload();
             }else{}
         
