@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 24/11/2016 06:40
+    Creation date: 23/12/2016 02:27
     */
 
     @font-face {
@@ -36,16 +36,32 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-close:before { content: "\f100"; }
-.flaticon-people:before { content: "\f101"; }
-.flaticon-time:before { content: "\f102"; }
-.flaticon-web:before { content: "\f103"; }
-.flaticon-window:before { content: "\f104"; }
-.flaticon-working:before { content: "\f105"; }
+    .flaticon-award-badge-outlined-symbol-of-stroke-for-sports:before { content: "\f100"; }
+.flaticon-cross:before { content: "\f101"; }
+.flaticon-file:before { content: "\f102"; }
+.flaticon-graduation-cap:before { content: "\f103"; }
+.flaticon-led-monitor:before { content: "\f104"; }
+.flaticon-lightbulb-with-screw:before { content: "\f105"; }
+.flaticon-like:before { content: "\f106"; }
+.flaticon-menu:before { content: "\f107"; }
+.flaticon-monitor-tablet-and-smartohone:before { content: "\f108"; }
+.flaticon-pc-monitor:before { content: "\f109"; }
+.flaticon-people:before { content: "\f10a"; }
+.flaticon-smartphone-screen:before { content: "\f10b"; }
+.flaticon-tablet:before { content: "\f10c"; }
+.flaticon-vertical-line:before { content: "\f10d"; }
     
-    $font-Flaticon-close: "\f100";
-    $font-Flaticon-people: "\f101";
-    $font-Flaticon-time: "\f102";
-    $font-Flaticon-web: "\f103";
-    $font-Flaticon-window: "\f104";
-    $font-Flaticon-working: "\f105";
+    $font-Flaticon-award-badge-outlined-symbol-of-stroke-for-sports: "\f100";
+    $font-Flaticon-cross: "\f101";
+    $font-Flaticon-file: "\f102";
+    $font-Flaticon-graduation-cap: "\f103";
+    $font-Flaticon-led-monitor: "\f104";
+    $font-Flaticon-lightbulb-with-screw: "\f105";
+    $font-Flaticon-like: "\f106";
+    $font-Flaticon-menu: "\f107";
+    $font-Flaticon-monitor-tablet-and-smartohone: "\f108";
+    $font-Flaticon-pc-monitor: "\f109";
+    $font-Flaticon-people: "\f10a";
+    $font-Flaticon-smartphone-screen: "\f10b";
+    $font-Flaticon-tablet: "\f10c";
+    $font-Flaticon-vertical-line: "\f10d";

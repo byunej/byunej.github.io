@@ -3,12 +3,20 @@ body{background-color: #000;}
 .window_box{width:100vw; height: 100vh;overflow: hidden;}
 .scroll_box{width: calc(100vw + 1rem);height: 100vh;overflow-y: scroll;overflow-x: hidden;}
 
-header{display:none;}
-h1 img{width: 4rem;height: auto; position: fixed; top: 2rem;left: 2rem}
-aside .menu_button{width: 3rem;height: 3rem;position: fixed;top:2rem;right: 2rem;z-index: 100}
-aside .menu_button i{font-size: 3rem;color: #fff}
-aside .menu{width: 100vw;height: 100vh;display: none;position: fixed;top: 0;left: 0;background-color: rgba(0,0,0,0.9);text-align: center;color: #fff;line-height: 4rem;font-size: 2rem;}
-aside .menu ul{font-family: 'Open Sans', sans-serif;display: table-cell;vertical-align: middle}
+
+header{display: none;width: 100vw;height: 3rem;background-color: #011124;position: fixed;}
+header>div{width: 100vw;height: 3rem;color: #fff;font-size: 1.2rem; text-align: center;line-height: 3rem;}
+
+h1{width: 2rem;height: 1.8rem;position: absolute;top: 0;left: 0.5rem;z-index: 100;background-image: url(../../img/ej_logo_w.png);background-size:contain;background-repeat: no-repeat;background-position: center;margin-top: 0.5rem;box-sizing: border-box;/*border: 1px solid #fff*/}
+aside{width: 2rem;height: 2rem;position: absolute;top: 0;right: 0;z-index: 100;box-sizing: border-box;/*border: 1px solid #fff;*/margin: 0.5rem}
+aside .menu_button{width: 1.5rem;height: 2rem;position: absolute;top: 0;right: 1rem;z-index: 1500;box-sizing: border-box;/*border: 1px solid #fff;*/}
+aside .menu_button i{font-size: 1.5rem;color: #fff;text-align: center;}
+
+aside .menu{width: 100vw;height: 100vh;display: table;position: fixed;top:0;left: 0;; background-color: rgba(0,0,0,0.9);text-align: center;color: #fff;line-height: 4rem;font-size: 2rem;transition: all 0.5s}
+aside .hide{display: none;}
+aside .menu_button .fff{color: #fff;}
+aside .menu ul{font-family: 'Open Sans', sans-serif;display: table-cell;vertical-align: middle;}
+aside .menu li a:hover, aside .menu li a:focus{outline: 0; color: #0080ff}
 
 section{width: 100vw;height: auto;box-sizing: border-box;}
 section article{width: 100vw;/*height: auto;*/height: 50rem;box-sizing: border-box;color: #fff;text-align: center;}
@@ -17,18 +25,19 @@ section article{width: 100vw;/*height: auto;*/height: 50rem;box-sizing: border-b
 #main {width: 100vw;height: 100vh;box-sizing: border-box;background-image:url(../../img/benis.jpg);background-repeat: no-repeat;background-size: cover;background-position:center 30%;transition: all 0.2s}
 /*메일 로고*/
 #main .logo{width: 100%;min-height:15.63rem;height: 50%;box-sizing: border-box;padding: 10% 5%;/*border: 1px solid #fff;*/}
-#main .logo_img {width: 100%;height: 100%;background-image: url(../../img/ej_logo.png);background-position: center;background-size: contain; background-repeat: no-repeat;}
+#main .logo_img {width: 100%;height: 100%;background-image: url(../../img/logo_w.svg);background-position: center;background-size: contain; background-repeat: no-repeat;}
 /*컨텐츠박스*/
-#main .logo ~ div{box-sizing: border-box;color: #fff;text-align: center;display: table;float: left}
+#main .logo ~ div{box-sizing: border-box;color: #fff;font-weight: bold; text-align: center;display: table;float: left}
 #main .resume a, #main .identity a {width: 100%;height: 100%;border: 3px solid #fff;}
 #main .portfolio_01 div, #main .portfolio_02 div {box-sizing: border-box;border: 3px solid #fff;float: left;display: table;}
 /*컨텐츠 박스 안 링크*/
 #main a{box-sizing: border-box; font-size: 1.2rem;vertical-align: middle;display: table-cell}
 
+
    
 
 section #main a:hover, section #main a:focus{background-color: rgba(2, 22, 39, 0.8);outline: 0}
-section #resume {background-color: #705577;}
+section #resume {background-color: #fff;}
 section #portfolio_01 {background-color: #3184cb;}
 section #portfolio_02 {background-color: #6a8301;}
 section #contact {background-color: #ed045e;}

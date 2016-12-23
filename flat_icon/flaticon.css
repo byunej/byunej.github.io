@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 24/11/2016 06:40
+  	Creation date: 23/12/2016 02:27
   	*/
 
 @font-face {
@@ -26,12 +26,19 @@
   font-family: Flaticon;
         font-size: inherit;
 font-style: normal;
-margin-left: 20px;
 }
 
-.flaticon-close:before { content: "\f100"; }
-.flaticon-people:before { content: "\f101"; }
-.flaticon-time:before { content: "\f102"; }
-.flaticon-web:before { content: "\f103"; }
-.flaticon-window:before { content: "\f104"; }
-.flaticon-working:before { content: "\f105"; }
+.flaticon-award-badge-outlined-symbol-of-stroke-for-sports:before { content: "\f100"; }
+.flaticon-cross:before { content: "\f101"; }
+.flaticon-file:before { content: "\f102"; }
+.flaticon-graduation-cap:before { content: "\f103"; }
+.flaticon-led-monitor:before { content: "\f104"; }
+.flaticon-lightbulb-with-screw:before { content: "\f105"; }
+.flaticon-like:before { content: "\f106"; }
+.flaticon-menu:before { content: "\f107"; }
+.flaticon-monitor-tablet-and-smartohone:before { content: "\f108"; }
+.flaticon-pc-monitor:before { content: "\f109"; }
+.flaticon-people:before { content: "\f10a"; }
+.flaticon-smartphone-screen:before { content: "\f10b"; }
+.flaticon-tablet:before { content: "\f10c"; }
+.flaticon-vertical-line:before { content: "\f10d"; }

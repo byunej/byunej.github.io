@@ -1,4 +1,4 @@
-@media screen and (min-width:37.5rem) and (max-width:63.94rem){
+@media screen and (min-width:600px) and (max-width:1023px){
     /*tab.css*/
     
     /*메인*/
@@ -10,4 +10,10 @@
 
     #main .portfolio_01 div, #main .portfolio_02 div {width:100%;height: 50%;}
     #main .portfolio_01 div:nth-child(2), #main .portfolio_02 div:nth-child(2){border-top: 0}
+    
+/*    resume*/
+    #resume{width: 100vw;height: auto; }
+    .resume_title{width: 100vw;height: 30vh;color: #555;font-size: 3rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
+    .resume_content_01{width: 100vw;height: 150vw;background-size: contain;background-repeat: no-repeat; background-position: top center; background-image: url(../../img/resume_tab.svg);}
+    
 }
