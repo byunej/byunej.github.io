@@ -21,7 +21,7 @@
     #portfolio_02{width: 100vw;height: auto; }
     .portfolio_02_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
     .portfolio_02_content_01{width: 100vw;height: 50vw;background-size: contain;background-repeat: no-repeat; background-position: top center; background-image: url(../../img/fender_abstract_pc.svg);}
-    .portfolio_02_content_02{height: 60vw;background-image: url(../../img/espoir_synop_pc.svg);}
+    .portfolio_02_content_02{height: 60vw;background-image: url(../../img/fender_synop_pc.svg);}
     /*  identity*/    
     #identity{width: 100vw;height: auto; }
     .identity_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
