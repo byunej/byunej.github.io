@@ -17,15 +17,22 @@
     .portfolio_01_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
     .portfolio_01_content_01{width: 100vw;height: 50vw;background-size: contain;background-repeat: no-repeat; background-position: top center; background-image: url(../../img/espoir_abstract_pc.svg);}
     .portfolio_01_content_02{height: 60vw;background-image: url(../../img/espoir_synop_pc.svg);}
+    .portfolio_01_content_03{height: 70vw;background-image: url(../../img/espoir_fontcolor_pc.svg);}
+    .portfolio_01_content_04{height: 60vw;background-image: url(../../img/espoir_flowchart_pc.svg);}
+    .portfolio_01_content_05{height: 60vw;background-image: url(../../img/espoir_sketch_pc.svg);}
     /*   portfolio_02*/    
     #portfolio_02{width: 100vw;height: auto; }
     .portfolio_02_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
     .portfolio_02_content_01{width: 100vw;height: 50vw;background-size: contain;background-repeat: no-repeat; background-position: top center; background-image: url(../../img/fender_abstract_pc.svg);}
     .portfolio_02_content_02{height: 60vw;background-image: url(../../img/fender_synop_pc.svg);}
+    .portfolio_02_content_03{height: 60vw;background-image: url(../../img/fender_fontcolor_pc.svg);}
+    .portfolio_02_content_04{height: 60vw;background-image: url(../../img/fender_flowchart_pc.svg);}
+    .portfolio_02_content_05{height: 60vw;background-image: url(../../img/fender_sketch_pc.svg);}
     /*  identity*/    
     #identity{width: 100vw;height: auto; }
     .identity_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
-    .identity_content_01{width: 100vw;height: 50vw;background-size: contain;background-repeat: no-repeat; background-position: top center; background-image: url( );}
-    .identity_content_02{height: 60vw;background-image: url()}
+    .identity_content_01{height: 90vw;background-image: url(../../img/identity_pc_01.svg);}
+    .identity_content_02{height: 90vw;background-image: url(../../img/identity_pc_02.svg)}
+    .identity_content_03{background-size: contain;height: 50vw;background-image: url(../../img/identity_pc_03.svg)}
     
 }

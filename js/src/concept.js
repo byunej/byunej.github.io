@@ -35,4 +35,40 @@ $(function(){
         
     });
     
+    var pf_02_concept_lnb = $('#portfolio_02 .concept_lnb');
+    $('.click_after').attr('data-content','synopsis');
+    pf_02_concept_lnb.find('li').on('click',function(){
+       
+        var li_index = $(this).index();
+        console.log('li_index: '+li_index);
+        $('#portfolio_02 .concept div').fadeOut();
+        pf_02_concept_lnb.find('li').removeClass('click click_after');
+        
+        switch(li_index){
+            case 0 :
+                $(this).addClass('click click_after');
+                $('.click_after').attr('data-content','synopsis');
+                $('.portfolio_02_content_02').fadeIn();
+                break;
+            case 1 :
+                $(this).addClass('click click_after');
+                $('.click_after').attr('data-content','font_color');
+               
+                $('.portfolio_02_content_03').fadeIn();
+                break;
+            case 2 :
+                $(this).addClass('click click_after');
+                $('.click_after').attr('data-content','flowchart');
+                $('.portfolio_02_content_04').fadeIn();
+                break;
+            case 3 :
+                $(this).addClass('click click_after');
+                $('.click_after').attr('data-content','sketch');
+                $('.portfolio_02_content_05').fadeIn();
+                break;
+                
+        }
+        
+    });
+    
 });

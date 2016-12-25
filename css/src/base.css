@@ -48,10 +48,10 @@ section article{width: 100vw;/*height: auto;*/height: 50rem;box-sizing: border-b
 .click_after::after{content: attr(data-content);display: block;width: 8rem;height: 3rem;line-height: 3rem;background-color: #fff;position: absolute;top:0;left: 0;z-index: 1000;border-radius: 0.5rem 0.5rem 0 0;color: #333;box-sizing: border-box;border: 2px solid #333;border-bottom: 0}
 
 #portfolio_01 button{width: 100%;height: 100%;color:inherit;outline: 0}
-    .portfolio_01_content_01{width: 100vw;background-size: contain;background-repeat: no-repeat; background-position: top center;}
-    .portfolio_01_content_02{width: 100vw;background-size: contain;background-repeat: no-repeat; background-position: top center;}
+    .portfolio_01_content_01{width: 100vw;background-size: contain;background-repeat: no-repeat; background-position: top left;}
 #portfolio_01 .concept{width: 100vw;height: auto;}
-#portfolio_01 .concept portfolio_01_content_02 ~ div{display: none;}
+    .portfolio_01_content_02, .portfolio_01_content_03, .portfolio_01_content_04, .portfolio_01_content_05{width: 100vw;background-size: cover;background-repeat: no-repeat; background-position: top left;}
+#portfolio_01 .concept .portfolio_01_content_02 ~ div{display: none;}
 
 
 
@@ -69,12 +69,14 @@ section article{width: 100vw;/*height: auto;*/height: 50rem;box-sizing: border-b
 #portfolio_02 button{width: 100%;height: 100%;color:inherit;outline: 0}
     .portfolio_02_content_01, .portfolio_02_content_02{width: 100vw;background-size: contain;background-repeat: no-repeat; background-position: top center;}
 #portfolio_02 .concept{width: 100vw;height: auto;}
-#portfolio_02 .concept portfolio_02_content_02 ~ div{display: none;}
+#portfolio_02 .concept .portfolio_02_content_02 ~ div{display: none;}
 
 /*identity*/
-    .identity_content_01,.identity_content_02 {width: 100vw;background-size: contain;background-repeat: no-repeat; background-position: top center;}
+    .identity_content_01,.identity_content_02,.identity_content_03 {width: 100vw;background-size: cover;background-repeat: no-repeat; background-position: top left;}
 /*top button*/
 .top{display: none;width: 3rem;height: 3rem;position: fixed;bottom: 1rem;right: 1rem;z-index: 50}
 .top button i{font-size: 2.5rem;color: rgba(2, 22, 39, 0.8)}
 
-footer{width: 100vw;height: 5rem;text-align: center;line-height: 5rem; border-top: 1px solid #222}
+.contact{width: 100vw;height: 40rem;background-image: url(../../img/contact.svg);background-repeat: no-repeat;background-position: top center;background-size: contain;border-top:1px solid #ddd }
+
+footer{width: 100vw;height: 5rem;text-align: center;line-height: 5rem; border-top: 1px solid #ccc}
