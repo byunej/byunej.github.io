@@ -24,6 +24,23 @@
     .portfolio_01_content_03{height: 120vw;background-image: url(../../img/espoir_fontcolor_tab.svg);background-size: contain}
     .portfolio_01_content_04{height: 130vw;background-image: url(../../img/espoir_flowchart_tab.svg);background-size: contain}
     .portfolio_01_content_05{height: 120vw;background-image: url(../../img/espoir_sketch_tab.svg);}
+    
+    
+    .portfolio_01_coding .index_mob {height: 220vw;background-image: url(../../img/index_mob_tab.svg)
+}
+.portfolio_01_coding .index_tab {display: none;height: 220vw;background-image: url(../../img/index_tab_tab.svg)
+}
+.portfolio_01_coding .index_pc {display: none;height: 220vw;background-image: url(../../img/index_pc_tab.svg)
+}
+.portfolio_01_coding .main_menu {display: none;height: 250vw;background-image: url(../../img/menu_tab.svg)
+}
+.portfolio_01_coding .best_new {display: none;height: 250vw;background-image: url(../../img/best_new_tab.svg)
+}
+.portfolio_01_coding .colorfinder {display: none;height: 250vw;background-image: url(../../img/color_tab.svg)
+}
+    
+    
+    
     /*   portfolio_02*/    
     #portfolio_02{width: 100vw;height: auto; }
     .portfolio_02_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;text-align: center;border-bottom: 1px solid #999}

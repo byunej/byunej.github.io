@@ -20,6 +20,25 @@
     .portfolio_01_content_03{height: 70vw;background-image: url(../../img/espoir_fontcolor_pc.svg);background-size: 92%}
     .portfolio_01_content_04{height: 60vw;background-image: url(../../img/espoir_flowchart_pc.svg);background-size: 92%}
     .portfolio_01_content_05{height: 60vw;background-image: url(../../img/espoir_sketch_pc.svg);}
+    
+    
+    .portfolio_01_coding .index_mob {width: 100%;height: 100%;background-image: url(../../img/index_mob_pc.svg)
+}
+.portfolio_01_coding .index_tab {display: none;
+}
+.portfolio_01_coding .index_pc {display: none;
+}
+.portfolio_01_coding .menu {display: none;
+}
+.portfolio_01_coding .best_new {display: none;
+}
+.portfolio_01_coding .colorfinder {display: none;
+}
+    
+    
+    
+    
+    
     /*   portfolio_02*/    
     #portfolio_02{width: 100vw;height: auto; }
     .portfolio_02_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;text-align: center;border-bottom: 1px solid #999}
