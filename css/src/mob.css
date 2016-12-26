@@ -35,11 +35,11 @@ aside .menu_button i{font-size: 1.5rem;color: #fff;}
     
     #portfolio_01{width: 100vw;height: auto; }
     .portfolio_01_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
-    .portfolio_01_content_01{width: 100vw;height: 185vw;background-size: 100%;background-repeat: no-repeat; background-position: top center; background-image: url(../../img/espoir_abstract_mob.svg);}
-    .portfolio_01_content_02{height: 230vw;background-image: url(../../img/espoir_synop_mob.svg);}
-    .portfolio_01_content_03{height: 400vw;background-image: url(../../img/espoir_fontcolor_mob.svg);}
-    .portfolio_01_content_04{height: 200vw;background-image: url(../../img/espoir_flowchart_mob.svg);}
-    .portfolio_01_content_05{height: 200vw;background-image: url(../../img/espoir_sketch_mob.svg);}
+    .portfolio_01_content_01{width: 100vw;height: 185vw;background-size: 100%;background-repeat: no-repeat; background-position: top left; background-image: url(../../img/espoir_abstract_mob.svg);}
+    .portfolio_01_content_02{height: 230vw;background-image: url(../../img/espoir_synop_mob.svg);background-size: cover}
+    .portfolio_01_content_03{height: 400vw;background-image: url(../../img/espoir_fontcolor_mob.svg);background-size: cover}
+    .portfolio_01_content_04{height: 200vw;background-image: url(../../img/espoir_flowchart_mob.svg);background-size: cover}
+    .portfolio_01_content_05{height: 200vw;background-image: url(../../img/espoir_sketch_mob.svg);background-size: cover}
     
 /*   portfolio_02*/
     

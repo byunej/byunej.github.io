@@ -36,12 +36,21 @@ aside .menu li a:hover, aside .menu li a:focus{outline: 0; color: #0080ff}
 section{width: 100vw;height: auto;box-sizing: border-box;}
 section article{width: 100vw;/*height: auto;*/height: 50rem;box-sizing: border-box;color: #fff;text-align: center;}
 
+.portfolio_01_title{position: relative;}
+
+#portfolio_01 .portfolio_01_title div{width: 7rem;height: 2rem;font-size: 1rem;color: #fff;background-color: #000;position: absolute;z-index: 30;bottom: 3.5rem;left: 50%;margin-left: -3.5rem;}
+#portfolio_01 .portfolio_01_title div{width: 100%;height: 100%;font-size: 1rem;color: #fff;background-color: #000;}
+#portfolio_01 .portfolio_01_title div:hover, #portfolio_01 .portfolio_01_title div:focus{background-color: #0080ff;}
+
+.portfolio_02_title{position: relative;}
+#portfolio_02 .portfolio_02_title div{width: 7rem;height: 2rem;font-size: 1rem;color: #fff;background-color: #000;position: absolute;z-index: 30;bottom: 3.5rem;left: 50%;margin-left: -3.5rem;}
+#portfolio_02 .portfolio_02_title div:hover, #portfolio_02 .portfolio_02_title div:focus{background-color:#0080ff;}
 /*portfolio_01*/
 
 #portfolio_01 ul{width: 100vw;height: 3rem;box-sizing: border-box;border-bottom: 2px solid #333;}
 #portfolio_01 li{width: 8rem;height: 3rem;box-sizing: border-box;border: 2px solid #333;float: left;font-size: 1.2rem;padding: 0 1rem;border-radius: 0.5rem 0.5rem 0 0;border-left:#fff;color: #222}
 #portfolio_01 li:first-child{border-left:1px solid #333;}
-#portfolio_01 li:hover, #portfolio_01 li:focus{background-color: rgba(0,0,0,0.8);color: #fff}
+#portfolio_01 li:hover, #portfolio_01 li:focus{background-color:rgba(0,0,0,0.8);color: #fff}
 
 
 #portfolio_01 .click{border:0;position: relative}
@@ -50,7 +59,7 @@ section article{width: 100vw;/*height: auto;*/height: 50rem;box-sizing: border-b
 #portfolio_01 button{width: 100%;height: 100%;color:inherit;outline: 0}
     .portfolio_01_content_01{width: 100vw;background-size: contain;background-repeat: no-repeat; background-position: top left;}
 #portfolio_01 .concept{width: 100vw;height: auto;}
-    .portfolio_01_content_02, .portfolio_01_content_03, .portfolio_01_content_04, .portfolio_01_content_05{width: 100vw;background-size: cover;background-repeat: no-repeat; background-position: top left;}
+    .portfolio_01_content_02, .portfolio_01_content_03, .portfolio_01_content_04, .portfolio_01_content_05{width: 100vw;background-size:contain;background-repeat: no-repeat; background-position: top left;}
 #portfolio_01 .concept .portfolio_01_content_02 ~ div{display: none;}
 
 
@@ -67,7 +76,7 @@ section article{width: 100vw;/*height: auto;*/height: 50rem;box-sizing: border-b
 
 
 #portfolio_02 button{width: 100%;height: 100%;color:inherit;outline: 0}
-    .portfolio_02_content_01, .portfolio_02_content_02{width: 100vw;background-size: contain;background-repeat: no-repeat; background-position: top center;}
+    .portfolio_02_content_01, .portfolio_02_content_02, .portfolio_02_content_03, .portfolio_02_content_04, .portfolio_02_content_05{width: 100vw;background-size: contain;background-repeat: no-repeat; background-position: top left;}
 #portfolio_02 .concept{width: 100vw;height: auto;}
 #portfolio_02 .concept .portfolio_02_content_02 ~ div{display: none;}
 
