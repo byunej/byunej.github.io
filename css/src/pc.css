@@ -8,13 +8,13 @@
     #main .portfolio_01 div:nth-child(2), #main .portfolio_02 div:nth-child(2){border-top: 0}
     /*    resume*/
     #resume{width: 100vw;height:auto; }
-    .resume_title{width: 100vw;height: 30vh;color: #555;font-size:2rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
+    #resume .resume_title{width: 100vw;height: 30vh;color: #555;font-size:2rem;text-align: center;border-bottom: 1px solid #999;line-height: 30vh}
     .resume_content_01{width: 30vw;height: 60vw;background-size: 90% auto;background-repeat: no-repeat; background-position:left top; background-image: url(../../img/resume_pc_01.svg);display: inline-block;}
     .resume_content_02{width: 60vw;height: 60vw;background-size: 100% auto;background-repeat: no-repeat; background-position: top right; background-image: url(../../img/resume_pc_02.svg);display: inline-block;box-sizing: border-box;border-left:1px solid #ccc;padding-left: 5rem;}
     
     /*   portfolio_01*/    
     #portfolio_01{width: 100vw;height: auto; }
-    .portfolio_01_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
+    .portfolio_01_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;text-align: center;border-bottom: 1px solid #999}
     .portfolio_01_content_01{width: 100vw;height: 50vw;background-size: contain;background-repeat: no-repeat; background-position: top center; background-image: url(../../img/espoir_abstract_pc.svg);}
     .portfolio_01_content_02{height: 60vw;background-image: url(../../img/espoir_synop_pc.svg);background-size: 92%}
     .portfolio_01_content_03{height: 70vw;background-image: url(../../img/espoir_fontcolor_pc.svg);background-size: 92%}
@@ -22,7 +22,7 @@
     .portfolio_01_content_05{height: 60vw;background-image: url(../../img/espoir_sketch_pc.svg);}
     /*   portfolio_02*/    
     #portfolio_02{width: 100vw;height: auto; }
-    .portfolio_02_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;line-height:30vh;text-align: center;border-bottom: 1px solid #999}
+    .portfolio_02_title{width: 100vw;height: 30vh;color: #555;font-size: 2.5rem;text-align: center;border-bottom: 1px solid #999}
     .portfolio_02_content_01{width: 100vw;height: 50vw;background-size: contain;background-repeat: no-repeat; background-position: top center; background-image: url(../../img/fender_abstract_pc.svg);}
     .portfolio_02_content_02{height: 60vw;background-image: url(../../img/fender_synop_pc.svg);background-size: 92%}
     .portfolio_02_content_03{height: 60vw;background-image: url(../../img/fender_fontcolor_pc.svg);background-size: 92%}
