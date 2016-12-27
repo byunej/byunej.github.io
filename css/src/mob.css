@@ -18,6 +18,9 @@ aside .menu_button i{font-size: 1.5rem;color: #fff;}
     .resume_content_01{width: 100vw;height: 150vw;background-size: contain;background-repeat: no-repeat; background-position:center top; background-image: url(../../img/resume_mob_01.svg);}
     .resume_content_02{width: 100vw;height: 367vw;background-size: 100% auto;background-repeat: no-repeat; background-position: top center; background-image: url(../../img/resume_mob_02.svg);}
     
+    
+
+    
     /*   portfolio_01*/
     
     #portfolio_01 ul{width: 100vw;height: 2.5rem;box-sizing: border-box;border-bottom: 2px solid #333;}
@@ -44,19 +47,29 @@ aside .menu_button i{font-size: 1.5rem;color: #fff;}
     
     
     
-    .portfolio_01_coding .index_mob {width: 100%;height: 100%;background-image: url(../../img/index_mob_mob.svg)
+    .portfolio_01_coding .index_mob {height: 220vw;background-image: url(../../img/index_mob_tab.svg)
 }
-.portfolio_01_coding .index_tab {display: none;
+.portfolio_01_coding .index_tab {display: none;height: 220vw;background-image: url(../../img/index_tab_tab.svg)
 }
-.portfolio_01_coding .index_pc {display: none;
+.portfolio_01_coding .index_pc {display: none;height: 220vw;background-image: url(../../img/index_pc_tab.svg)
 }
-.portfolio_01_coding .menu {display: none;
+.portfolio_01_coding .main_menu {display: none;height: 250vw;background-image: url(../../img/menu_tab.svg)
 }
-.portfolio_01_coding .best_new {display: none;
+.portfolio_01_coding .best_new {display: none;height: 250vw;background-image: url(../../img/best_new_tab.svg)
 }
-.portfolio_01_coding .colorfinder {display: none;
+.portfolio_01_coding .colorfinder {display: none;height: 250vw;background-image: url(../../img/color_tab.svg)
 }
     
+
+    .portfolio_02_coding .product {height: 230vw;background-image: url(../../img/product_tab.svg)
+}
+.portfolio_02_coding .electronic {display: none;height: 230vw;background-image: url(../../img/electronic_tab.svg)
+}
+.portfolio_02_coding .contact{display: none;height: 230vw;background-image: url(../../img/contact_tab.svg)
+}
+.portfolio_02_coding .video {display: none;height: 230vw;background-image: url(../../img/video_tab.svg)
+}
+        
     
     
 /*   portfolio_02*/

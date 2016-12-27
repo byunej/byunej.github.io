@@ -22,18 +22,35 @@
     .portfolio_01_content_05{height: 60vw;background-image: url(../../img/espoir_sketch_pc.svg);}
     
     
-    .portfolio_01_coding .index_mob {width: 100%;height: 100%;background-image: url(../../img/index_mob_pc.svg)
+    
+.portfolio_01_coding .select_01{width: 100vw;height: auto;box-sizing: border-box; padding-right: 3rem;text-align: right;padding-top: 1rem;background-color: #fff;
 }
-.portfolio_01_coding .index_tab {display: none;
+    
+    .portfolio_01_coding .index_mob {height: 50vw;background-image: url(../../img/index_mob_pc.svg)
 }
-.portfolio_01_coding .index_pc {display: none;
+.portfolio_01_coding .index_tab {display: none;height: 50vw;background-image: url(../../img/index_tab_pc.svg)
 }
-.portfolio_01_coding .menu {display: none;
+.portfolio_01_coding .index_pc {display: none;height: 50vw;background-image: url(../../img/index_pc_pc.svg)
 }
-.portfolio_01_coding .best_new {display: none;
+.portfolio_01_coding .main_menu {display: none;height: 50vw;background-image: url(../../img/menu_pc.svg)
 }
-.portfolio_01_coding .colorfinder {display: none;
+.portfolio_01_coding .best_new {display: none;height: 50vw;background-image: url(../../img/best_new_pc.svg)
 }
+.portfolio_01_coding .colorfinder {display: none;height: 50vw;background-image: url(../../img/color_pc.svg)
+}
+    
+ .portfolio_02_coding .select_02{width: 100vw;height: auto;box-sizing: border-box; padding-right: 3rem;text-align: right;padding-top: 1rem;background-color: #fff;
+}
+    
+    .portfolio_02_coding .product {height: 50vw;background-image: url(../../img/product_pc.svg)
+}
+.portfolio_02_coding .electronic {display: none;height: 50vw;background-image: url(../../img/electronic_pc.svg)
+}
+.portfolio_02_coding .contact{display: none;height: 50vw;background-image: url(../../img/contact_pc.svg)
+}
+.portfolio_02_coding .video {display: none;height: 50vw;background-image: url(../../img/video_pc.svg)
+}
+ 
     
     
     

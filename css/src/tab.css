@@ -38,8 +38,17 @@
 }
 .portfolio_01_coding .colorfinder {display: none;height: 250vw;background-image: url(../../img/color_tab.svg)
 }
+
     
-    
+    .portfolio_02_coding .product {height: 230vw;background-image: url(../../img/product_tab.svg)
+}
+.portfolio_02_coding .electronic {display: none;height: 230vw;background-image: url(../../img/electronic_tab.svg)
+}
+.portfolio_02_coding .contact{display: none;height: 230vw;background-image: url(../../img/contact_tab.svg)
+}
+.portfolio_02_coding .video {display: none;height: 230vw;background-image: url(../../img/video_tab.svg)
+}
+     
     
     /*   portfolio_02*/    
     #portfolio_02{width: 100vw;height: auto; }
