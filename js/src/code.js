@@ -2,7 +2,7 @@ $(function(){
   
     $('.code_open_01 button').on('click',function(){
        
-    $('.portfolio_01_coding').slideToggle();
+    $('.portfolio_01_coding').stop().slideToggle();
         
     });
     
@@ -44,7 +44,7 @@ $(function(){
     
     $('.code_open_02 button').on('click',function(){
        
-    $('.portfolio_02_coding').slideToggle();
+    $('.portfolio_02_coding').stop().slideToggle();
         
     });
     
