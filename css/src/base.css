@@ -34,14 +34,14 @@ aside .menu li a:hover, aside .menu li a:focus{outline: 0; color: #0080ff}
 
 /*section article*/
 section{width: 100vw;height: auto;box-sizing: border-box;}
-section article{width: 100vw;/*height: auto;*/height: 50rem;box-sizing: border-box;color: #fff;text-align: center;}
+section article{width: 100vw;box-sizing: border-box;color: #fff;text-align: center;}
 
-.portfolio_01_title{/*position: relative;*/}
-#portfolio_01 .portfolio_01_title h2{width: 100vw;height: 30%;padding-top:5rem;font-weight: normal}
+.portfolio_title{/*position: relative;*/}
+.portfolio_title h2{width: 100vw;height: 30%;padding-top:5rem;font-weight: normal}
 
-#portfolio_01 .portfolio_01_title div{width: 100vw;height: 2rem;font-size: 1rem;/*position: absolute;z-index: 30;bottom: 3.5rem;left: 50%;margin-left: -3.5rem;*/line-height: 2rem;box-sizing: border-box; padding: 0 40%}
-#portfolio_01 .portfolio_01_title div a{width: 100%;height: 100%;font-size: 1rem;color: #fff;background-color: #000;/*position: absolute;z-index: 30;bottom: 3.5rem;left: 50%;margin-left: -3.5rem;*/line-height: 2rem;}
-#portfolio_01 .portfolio_01_title div a:hover, #portfolio_01 .portfolio_01_title div a:focus{background-color: #0080ff;}
+.portfolio_title div{width: 100vw;height: 2rem;font-size: 1rem;/*position: absolute;z-index: 30;bottom: 3.5rem;left: 50%;margin-left: -3.5rem;*/line-height: 2rem;box-sizing: border-box; padding: 0 40%}
+.portfolio_title div a{width: 100%;height: 100%;font-size: 1rem;color: #fff;background-color: #000;/*position: absolute;z-index: 30;bottom: 3.5rem;left: 50%;margin-left: -3.5rem;*/line-height: 2rem;}
+.portfolio_title div a:hover,.portfolio_title div a:focus{background-color: #0080ff;}
 
 #portfolio_01 ul{width: 100vw;height: 3rem;box-sizing: border-box;border-bottom: 2px solid #333;}
 #portfolio_01 li{width: 8rem;height: 3rem;box-sizing: border-box;border: 2px solid #333;float: left;font-size: 1.2rem;padding: 0 1rem;border-radius: 0.5rem 0.5rem 0 0;border-left:#fff;color: #222}
@@ -49,11 +49,11 @@ section article{width: 100vw;/*height: auto;*/height: 50rem;box-sizing: border-b
 #portfolio_01 li:hover, #portfolio_01 li:focus{background-color:rgba(0,0,0,0.8);color: #fff}
 
 
-#portfolio_01 .click{border:0;position: relative}
+.click{border:0;position: relative}
 .click_after::after{content: attr(data-content);display: block;width: 8rem;height: 3rem;line-height: 3rem;background-color: #fff;position: absolute;top:0;left: 0;z-index: 1000;border-radius: 0.5rem 0.5rem 0 0;color: #333;box-sizing: border-box;border: 2px solid #333;border-bottom: 0}
 
-#portfolio_01 button{width: 100%;height: 100%;color:inherit;outline: 0}
-.portfolio_01_content_01{width: 100vw;background-size: contain;background-repeat: no-repeat; background-position: top left;}
+button{width: 100%;height: 100%;color:inherit;outline: 0}
+.abstract{width: 100vw;background-size: contain;background-repeat: no-repeat; background-position: top left;}
 #portfolio_01 .concept{width: 100vw;height: auto;}
 .portfolio_01_content_02, .portfolio_01_content_03, .portfolio_01_content_04, .portfolio_01_content_05{width: 100vw;background-size:contain;background-repeat: no-repeat; background-position: top left;border-bottom: 1px solid #ccc}
 #portfolio_01 .concept .portfolio_01_content_02 ~ div{display: none;}
@@ -110,7 +110,7 @@ section article{width: 100vw;/*height: auto;*/height: 50rem;box-sizing: border-b
 #portfolio_02 .portfolio_02_title h2{width: 100vw;height: 30%;padding-top:5rem;font-weight: normal}
 #portfolio_02 .portfolio_02_title div{width: 100vw;height: 2rem;font-size: 1rem;/*position: absolute;z-index: 30;bottom: 3.5rem;left: 50%;margin-left: -3.5rem;*/line-height: 2rem;box-sizing: border-box; padding: 0 40%}
 #portfolio_02 .portfolio_02_title div a{width: 100%;height: 100%;font-size: 1rem;color: #fff;background-color: #000;/*position: absolute;z-index: 30;bottom: 3.5rem;left: 50%;margin-left: -3.5rem;*/line-height: 2rem;}
-#portfolio_02 .portfolio_02_title div a:hover, #portfolio_01 .portfolio_01_title div a:focus{background-color: #0080ff;}
+#portfolio_02 .portfolio_02_title div a:hover, #portfolio_01 .portfolio_title div a:focus{background-color: #0080ff;}
 
 .portfolio_02_coding{width: 100vw;height: auto;display: none;}
 .portfolio_02_coding .select_02{width: 100vw;height: auto;box-sizing: border-box; padding-left: 3rem;text-align: left;padding-top: 1rem;background-color: #0F1927;
@@ -141,3 +141,46 @@ section article{width: 100vw;/*height: auto;*/height: 50rem;box-sizing: border-b
 .contact_to_me{width: 100vw;height: 40rem;background-image: url(../../img/contact.svg);background-repeat: no-repeat;background-position: top center;background-size: contain;border-top:1px solid #ddd }
 
 footer{width: 100vw;height: 5rem;text-align: center;line-height: 5rem; border-top: 1px solid #ccc}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 599px){
+    .abstract{width: 100vw;background-size: 100%;background-repeat: no-repeat; background-position: top left; }
+    
+     .twosome_abstract{height: 185vw;background-image: url(../../img/twosome_abstract_mob.svg);}
+    .birdie_abstract{height: 272vw;background-image: url(../../img/birdie_abstract_mob.svg);}
+     .anb_abstract{height: 272vw;background-image: url(../../img/anb_abstract_mob.svg);}
+    
+}
+@media screen and (min-width:600px) and (max-width:1023px){
+    
+     .twosome_abstract{height: 140vw;background-image: url(../../img/twosome_abstract_tab.svg);}
+    .birdie_abstract{height: 140vw;background-image: url(../../img/birdie_abstract_tab.svg);}
+   .anb_abstract{height: 140vw;background-image: url(../../img/anb_abstract_tab.svg);}
+    
+}
+@media screen and (min-width:1024px) {
+    
+     .abstract{width: 100vw;background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top center; }
+    
+        .twosome_abstract {
+        height: 50vw;        
+        background-image: url(../../img/twosome_abstract_pc.svg);
+    }
+       .birdie_abstract {
+        height: 50vw;        
+        background-image: url(../../img/birdie_abstract_pc.svg);
+    }
+       .anb_abstract {
+        height: 50vw;        
+        background-image: url(../../img/anb_abstract_pc.svg);
+    }
+    
+}
